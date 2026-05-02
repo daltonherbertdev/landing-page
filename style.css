@@ -2,6 +2,8 @@ body {
     display: flex;
     height: 100vh;
     flex-direction: column;
+    font-family: "Roberto";
+    justify-content: space-between;
 }
 
 ul {
@@ -11,8 +13,9 @@ ul {
     padding: 0;
 }
 
-.header {
+.header, .container-1 {
     display: flex;
+    background-color: #1f2937;
 }
 
 .container-1 {
@@ -24,13 +27,13 @@ ul {
 }
 
 .container-3 {
-
+    background-color: #e5e7eb;
 }
 
 .container-4 {
-
+    display: flex;
 }
 
 footer {
-    
+
 }
