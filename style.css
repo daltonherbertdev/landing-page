@@ -10,3 +10,27 @@ ul {
     gap: 20px;
     padding: 0;
 }
+
+.header {
+    display: flex;
+}
+
+.container-1 {
+    display: flex;
+}
+
+.container-2 {
+    display: flex
+}
+
+.container-3 {
+
+}
+
+.container-4 {
+
+}
+
+footer {
+    
+}
