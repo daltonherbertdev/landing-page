@@ -1,1 +1,1 @@
-# landing-page
+This is a full webpage. I will be showcasing everything I have taught myself so far and utililing HTML and CSS skills. # landing-page
