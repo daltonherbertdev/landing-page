@@ -4,6 +4,7 @@ body {
     flex-direction: column;
     font-family: "Roberto";
     justify-content: space-between;
+    margin: 0;
 }
 
 ul {
@@ -16,6 +17,9 @@ ul {
 .header, .container-1 {
     display: flex;
     background-color: #1f2937;
+    padding-left: 120px;
+    padding-right: 120px;
+    justify-content: space-between;
 }
 
 .container-1 {
@@ -32,8 +36,43 @@ ul {
 
 .container-4 {
     display: flex;
+    background-color: #3882f6;
+    justify-content: center;
+    border-radius: 20px;
+    margin: auto;
+    height: 200px;
+    width: 800px;
 }
 
 footer {
+    background-color: #1f2937;
+}
 
+h1 {
+    font-weight: 900;
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+ul, .hero {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937
+}
+
+img, button {
+    border-radius: 10px;
+}
+
+
+button {
+    flex-grow: 0;
+    height: 40px;
+    width: 100px;
 }
