@@ -24,11 +24,14 @@ ul {
 
 .container-1 {
     display: flex;
+    height: 500px;
+    justify-content: space-around;
 }
 
 .verticals {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .container-2 {
@@ -42,7 +45,7 @@ ul {
 .container-4 {
     display: flex;
     background-color: #3882f6;
-    justify-content: center;
+    justify-content: space-between;
     border-radius: 20px;
     margin: auto;
     height: 200px;
@@ -77,6 +80,10 @@ img, button {
     border-radius: 10px;
 }
 
+#main {
+    display: flex;
+    align-self: center;
+}
 
 button {
     flex-grow: 0;
