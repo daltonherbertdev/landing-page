@@ -35,7 +35,22 @@ ul {
 }
 
 .container-2 {
-    display: flex
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 25px;
+}
+
+.four {
+    display: flex;
+    justify-content: center;
+    gap: 65px;
+}
+
+.img-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
 .container-3 {
@@ -89,4 +104,9 @@ button {
     flex-grow: 0;
     height: 40px;
     width: 100px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 32px;
 }
