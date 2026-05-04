@@ -1,6 +1,6 @@
 body {
     display: flex;
-    height: 160vh;
+    height: 154vh;
     flex-direction: column;
     font-family: "Roberto";
     margin: 0;
@@ -31,8 +31,8 @@ ul {
 .header, .container-1 {
     display: flex;
     background-color: #1f2937;
-    padding-left: 250px;
-    padding-right: 250px;
+    padding-left: 350px;
+    padding-right: 350px;
     justify-content: space-between;
 }
 
@@ -46,24 +46,29 @@ ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    color: #f9faf8;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px black;
 }
 
 .container-2 {
     display: flex;
     flex-direction: column;
     padding-bottom: 25px;
+    gap: 14px;
 }
 
 .four {
     display: flex;
     justify-content: center;
-    gap: 65px;
+    gap: 90px;
 }
 
 .img-text {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 15px;
 
 }
 
@@ -96,6 +101,22 @@ ul {
     border-radius: 20px;
     height: 200px;
     width: 800px;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    padding: 40px;
+    padding-right: 85px;
+    box-shadow: 6px 6px 10px black;
+}
+
+h3 {
+    margin-bottom: 0;
+}
+
+#cta-button {
+    align-self: center;
+    height: 60px;
+    width: 150px;
+    font-size: 20px;
 }
 
 footer {
@@ -122,14 +143,16 @@ ul, .hero {
     color: #1f2937
 }
 
-img, button {
+.img-border {
     border-radius: 10px;
+    border: 3px solid #3882f6;
 }
 
-.img-border {
-    border: 15px;
-    border-color: #3882f6;
+#main {
+    border-radius: 10px;
+    box-shadow: 6px 6px 10px whitesmoke;
 }
+
 
 #main {
     display: flex;
@@ -140,6 +163,12 @@ button {
     flex-grow: 0;
     height: 40px;
     width: 100px;
+    background-color: #3882f6;
+    border-color: #f9faf8;
+    color: #f9faf8;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 10px;
 }
 
 h2 {
