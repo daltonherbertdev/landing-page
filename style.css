@@ -31,8 +31,8 @@ ul {
 .header, .container-1 {
     display: flex;
     background-color: #1f2937;
-    padding-left: 120px;
-    padding-right: 120px;
+    padding-left: 250px;
+    padding-right: 250px;
     justify-content: space-between;
 }
 
@@ -68,7 +68,14 @@ ul {
 }
 
 .container-3 {
+    display: flex;
     background-color: #e5e7eb;
+    height: 375px;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 .container-4 {
